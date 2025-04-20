@@ -48,7 +48,7 @@
         document.getElementById("loadingparent").style.opacity = "1";
       }, 10);
     </script>
-    <script src="Build/fruits-web.loader.js"></script>
+    <script src="Build/Builds.loader.js"></script>
     <script>
       function unitySetLoaderProgressTo(progress){
         document.getElementById('loadingbar').style.right = `${(1-progress) * 100}%`
@@ -61,9 +61,9 @@
       }
 
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/fruits-web.data.unityweb",
-        frameworkUrl: "Build/fruits-web.framework.js.unityweb",
-        codeUrl: "Build/fruits-web.wasm.unityweb",
+        dataUrl: "Build/Builds.data.unityweb",
+        frameworkUrl: "Build/Builds.framework.js.unityweb",
+        codeUrl: "Build/Builds.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "FruitsTeam",
         productName: "Fruits",
